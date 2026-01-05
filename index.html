@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Discord Server Viewer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Discord Server Viewer</h1>
+
+    <div class="input-group">
+      <input type="text" id="guildId" placeholder="Enter Guild ID (Server ID)" />
+      <button id="fetchBtn">Fetch Channels</button>
+    </div>
+
+    <p id="loading" class="loading"></p>
+    <p id="error" class="error"></p>
+
+    <div id="results" class="results"></div>
+
+    <footer>
+      Andrei TITIKMAN
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

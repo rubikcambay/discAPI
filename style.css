@@ -1,0 +1,120 @@
+/* GENERAL STYLES */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #202225;
+  color: #dcddde;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* HEADER */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* INPUT + BUTTON */
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #2f3136;
+  color: #dcddde;
+}
+
+input[type="text"]::placeholder {
+  color: #72767d;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background: #5865f2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #4752c4;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* LOADING & ERROR */
+.loading {
+  color: #7289da;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: #f04747;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* RESULTS CARDS */
+.results {
+  margin-top: 20px;
+}
+
+.card {
+  background: #2f3136;
+  color: #dcddde;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card:hover {
+  background: #393c43;
+  color: #ffffff;
+}
+
+/* ICONS */
+.card span {
+  font-size: 16px;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 12px;
+  color: #72767d;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 480px) {
+  .input-group {
+    flex-direction: column;
+  }
+  button {
+    width: 100%;
+  }
+}
