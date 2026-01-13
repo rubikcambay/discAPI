@@ -1,8 +1,3 @@
-Nice little project 👀 — clean and practical. Here’s a solid **README.md** you can drop straight into your repo. It explains what the app does, how it’s structured, and how to run it locally.
-
----
-
-```markdown
 # Discord Server Viewer
 
 A simple web application that lets you view **channels of a Discord server** by entering its **Guild ID**.  
@@ -10,7 +5,6 @@ It uses a **Discord bot**, an **Express backend**, and a **vanilla HTML/CSS/JS f
 
 > ⚠️ The bot must be **inside the server** you want to view, otherwise Discord will deny access.
 
----
 
 ## ✨ Features
 
@@ -21,7 +15,6 @@ It uses a **Discord bot**, an **Express backend**, and a **vanilla HTML/CSS/JS f
 - Secure backend using Discord Bot Token
 - CORS configured for GitHub Pages frontend
 
----
 
 ## 🧱 Tech Stack
 
@@ -38,7 +31,6 @@ It uses a **Discord bot**, an **Express backend**, and a **vanilla HTML/CSS/JS f
 - dotenv
 - CORS
 
----
 
 ## 📂 Project Structure
 
@@ -58,7 +50,6 @@ project-root/
 
 ````
 
----
 
 ## 🚀 Setup & Installation
 
@@ -82,7 +73,6 @@ TOKEN=YOUR_DISCORD_BOT_TOKEN
 
 > 🔐 **Never commit your bot token**
 
----
 
 ## 🤖 Discord Bot Setup
 
@@ -102,7 +92,6 @@ TOKEN=YOUR_DISCORD_BOT_TOKEN
 
 Invite the bot to your server using the OAuth2 URL generator.
 
----
 
 ## ▶️ Running the App
 
@@ -126,7 +115,6 @@ http://localhost:3000
 
 (or deploy the frontend to GitHub Pages and keep the backend running)
 
----
 
 ## 🔌 API Endpoint
 
@@ -142,21 +130,6 @@ Example:
 /api/guilds/123456789012345678/channels
 ```
 
----
-
-## 🧪 Bot Commands (Test)
-
-Inside a Discord server where the bot is present:
-
-| Command     | Response           |
-| ----------- | ------------------ |
-| `hello`     | Greeting           |
-| `ping`      | Pong               |
-| `server id` | Displays server ID |
-| `help`      | Command list       |
-
----
-
 ## 🛡️ Notes & Limitations
 
 * The bot **must be in the target server**
@@ -164,27 +137,12 @@ Inside a Discord server where the bot is present:
 * Categories are intentionally hidden
 * This app is **read-only** (no moderation actions)
 
----
 
 ## 👤 Author
 
-**Andrei TITIKMAN**
+Andrei TITIKMAN
 
----
 
 ## 📜 License
 
 This project is open-source and free to use for learning and personal projects.
-
-```
-
----
-
-If you want, I can also:
-- Add **screenshots section**
-- Make a **GitHub Pages–friendly version**
-- Add **Docker support**
-- Harden security (rate limiting, validation, token safety)
-
-Just say the word 😄
-```
