@@ -15,7 +15,6 @@ It uses a **Discord bot**, an **Express backend**, and a **vanilla HTML/CSS/JS f
 - Secure backend using Discord Bot Token
 - CORS configured for GitHub Pages frontend
 
-
 ## 🧱 Tech Stack
 
 ### Frontend
