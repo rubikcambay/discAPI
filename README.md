@@ -13,25 +13,23 @@ It uses a **Discord bot**, an **Express backend**, and a **vanilla HTML/CSS/JS f
 - Click a channel to copy/view its **Channel ID**
 - Simple, Discord-like dark UI
 - Secure backend using Discord Bot Token
-- CORS configured for GitHub Pages frontend
 
-## 🧱 Tech Stack
+🧱 Tech Stack
 
-### Frontend
+Frontend
 - HTML5
 - CSS3
 - Vanilla JavaScript
 - Fetch API
 
-### Backend
+Backend
 - Node.js
 - Express
 - discord.js v14
 - dotenv
-- CORS
 
 
-## 📂 Project Structure
+📂 Project Structure
 
 ```
 
@@ -50,21 +48,21 @@ project-root/
 ````
 
 
-## 🚀 Setup & Installation
+ 🚀 Setup & Installation
 
-### 1️⃣ Clone the repository
+ 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/your-username/discord-server-viewer.git
 cd discord-server-viewer
 ````
 
-### 2️⃣ Install dependencies
+2️⃣ Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3️⃣ Create a `.env` file
+3️⃣ Create a `.env` file
 
 ```env
 TOKEN=YOUR_DISCORD_BOT_TOKEN
@@ -72,8 +70,7 @@ TOKEN=YOUR_DISCORD_BOT_TOKEN
 
 > 🔐 **Never commit your bot token**
 
-
-## 🤖 Discord Bot Setup
+🤖 Discord Bot Setup
 
 1. Go to the **Discord Developer Portal**
 2. Create a new application
@@ -92,7 +89,7 @@ TOKEN=YOUR_DISCORD_BOT_TOKEN
 Invite the bot to your server using the OAuth2 URL generator.
 
 
-## ▶️ Running the App
+▶️ Running the App
 
 Start the backend server:
 
@@ -115,9 +112,9 @@ http://localhost:3000
 (or deploy the frontend to GitHub Pages and keep the backend running)
 
 
-## 🔌 API Endpoint
+🔌 API Endpoint
 
-### Get Guild Channels
+ Get Guild Channels
 
 ```
 GET /api/guilds/:guildId/channels
@@ -129,7 +126,7 @@ Example:
 /api/guilds/123456789012345678/channels
 ```
 
-## 🛡️ Notes & Limitations
+🛡️ Notes & Limitations
 
 * The bot **must be in the target server**
 * You can only access servers the bot has permission for
@@ -137,11 +134,11 @@ Example:
 * This app is **read-only** (no moderation actions)
 
 
-## 👤 Author
+👤 Author
 
 Andrei TITIKMAN
 
 
-## 📜 License
+📜 License
 
 This project is open-source and free to use for learning and personal projects.
